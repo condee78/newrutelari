@@ -1,0 +1,103 @@
+/* Features Area CSS */
+
+.dorne-features-destinations-area,
+.dorne-features-restaurant-area {
+  padding: 100px 35px;
+  position: relative;
+  z-index: 1;
+}
+
+.single-features-area {
+  position: relative;
+  z-index: 1;
+  background-color: #f4f6f8;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.single-features-area .price-start p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #2ca8ff;
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  margin-bottom: 0;
+  padding: 0 15px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 9;
+}
+
+.feature-content {
+  padding: 40px 30px;
+}
+
+.feature-content .feature-title h5 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.feature-content .feature-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.feature-favourite > a {
+  color: #2ca8ff;
+  font-size: 24px;
+}
+
+.single-features-area:hover {
+  background-color: #2ca8ff;
+  box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.single-features-area:hover .feature-content .feature-title h5,
+.single-features-area:hover .feature-content .feature-title p,
+.single-features-area:hover .feature-favourite > a {
+  color: #fff;
+}
+
+.ratings-map-area > a {
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  height: 70px;
+  line-height: 70px;
+  background-color: #2ca8ff;
+}
+
+.ratings-map-area > a:last-child {
+  background-color: #2a2a2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.ratings-map-area {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+}
+
+.single-features-area:hover .ratings-map-area > a:last-child {
+  background-color: #30c0a3;
+}

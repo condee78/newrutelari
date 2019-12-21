@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e2b370e6-9c76-4c7b-a9b9-6d7b12d46bcb/resourceGroups/rutelari/providers/Microsoft.Web/sites/rutelari",
+    "appService.deploySubpath": ""
+}
