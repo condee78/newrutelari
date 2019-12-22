@@ -12,10 +12,8 @@ function FeaturedRute() {
         <Container className="text-center">
           <Row className="justify-content-md-center">
             <Col lg="8" md="12">
-              <h2 className="title">Featured Rute</h2>
-              <h5 className="description">
-                RuteLari terbaik pilihan runners.
-              </h5>
+              <h2 className="title">Best Rute</h2>
+              <h5 className="description">RuteLari terbaik pilihan runners.</h5>
             </Col>
           </Row>
         </Container>

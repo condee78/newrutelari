@@ -23,24 +23,38 @@ function CarouselSection() {
 
   const items = [
     {
-      src: require("../../assets/img/bg1.jpg"),
-      city: "Nature, United States",
-      title: "Nature, United States",
-      subtitle: "subtitle",
+      src: require("../../assets/img/Bukit Batulawang.jpg"),
+      city: "Cilegon, Banten",
+      title: "Bukit Batu Lawang",
+      subtitle: "Gerem",
       link: ""
     },
     {
-      src: require("../../assets/img/bg3.jpg"),
-      city: "Somewhere Beyond, United States",
-      title: "Somewhere Beyond, United States",
-      subtitle: "subtitle",
+      src: require("../../assets/img/Cilegon.jpg"),
+      city: "Cilegon, Banten",
+      title: "Cilegon",
+      subtitle: "",
       link: ""
     },
     {
-      src: require("../../assets/img/bg4.jpg"),
-      city: "Yellowstone National Park, United States",
-      title: "Yellowstone National Park, United States",
-      subtitle: "subtitle",
+      src: require("../../assets/img/Serang.jpg"),
+      city: "Serang, Banten",
+      title: "Serang",
+      subtitle: "",
+      link: ""
+    },
+    {
+      src: require("../../assets/img/Tanjung Pendam Belitong.jpg"),
+      city: "Belitong",
+      title: "Tanjung Pendam",
+      subtitle: "Belitong",
+      link: ""
+    },
+    {
+      src: require("../../assets/img/Perkebunan Teh Penyairan.jpg"),
+      city: "Cianjur, Jawa Barat",
+      title: "Perkebunan Teh",
+      subtitle: "Penyairan",
       link: ""
     }
   ];
