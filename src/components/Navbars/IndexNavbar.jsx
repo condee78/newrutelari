@@ -53,11 +53,7 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
-              target="_blank"
-              id="navbar-brand"
-            >
+            <NavbarBrand href="/index" id="navbar-brand">
               <i className="now-ui-icons sport_user-run mr-1"></i> RuteLari
             </NavbarBrand>
             <button
@@ -85,9 +81,7 @@ function IndexNavbar() {
                   href="#"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.getElementById("index-section").scrollIntoView();
                   }}
                 >
                   <p>Home</p>
@@ -107,7 +101,16 @@ function IndexNavbar() {
                   <DropdownItem to="/index" tag={Link}>
                     Runner Story
                   </DropdownItem>
-                  <DropdownItem href="">Best Rute</DropdownItem>
+                  <DropdownItem
+                    onClick={e => {
+                      e.preventDefault();
+                      document
+                        .getElementById("best-rute-section")
+                        .scrollIntoView();
+                    }}
+                  >
+                    Best Rute
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
 
@@ -116,9 +119,7 @@ function IndexNavbar() {
                   href="#"
                   onClick={e => {
                     e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
+                    document.getElementById("index-section").scrollIntoView();
                   }}
                 >
                   <p>About us</p>

@@ -8,7 +8,7 @@ import { Container, Row, Col } from "reactstrap";
 function FeaturedRute() {
   return (
     <>
-      <div className="section">
+      <div className="section" id="best-rute-section">
         <Container className="text-center">
           <Row className="justify-content-md-center">
             <Col lg="8" md="12">
